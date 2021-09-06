@@ -2,7 +2,7 @@ import classes from "./MealsSummary.module.css";
 
 const MealsSummary = () => {
   return (
-    <section>
+    <section className={classes.summary}>
       <h1>Delicious Fodd, Delivered To You</h1>
       <p>
         Choose your favorite meal from our broad selection of available meals
